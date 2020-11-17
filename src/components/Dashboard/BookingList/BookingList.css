@@ -1,0 +1,42 @@
+.addRentHouse{
+  display: flex;
+}
+/* sideBarDetails */
+.sideBarDetails{
+  flex: 0.2;
+}
+.logo{
+  height: 80px;
+  margin-bottom: 20px;
+}
+.sideLogo{
+  width: 25px;
+  height: 25px;
+}
+.sideMenu{
+  display: flex;
+  cursor: pointer;
+}
+.sideMenu > p {
+  margin-left: 15px;
+}
+.fontAws{
+  margin-left: 5px;
+  font-size: 20px;
+}
+/* bookingListDetails */
+.bookingListDetails{
+  flex: 0.8;
+  background-color: #F4F7FC;
+  height: 600px;
+  padding: 20px;
+} 
+.bookingList{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.bookingList p{
+  margin: 0;
+}
+

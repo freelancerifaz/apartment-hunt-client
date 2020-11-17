@@ -6,8 +6,12 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './components/Home/Home/Home';
-import Login from './components/Login/Login/Login';
 import LoginDetail from './components/Login/LoginDetail/LoginDetail';
+import HomeDetailsRent from './components/Home/HomeDetailsRent/HomeDetailsRent';
+import AddRentHouse from './components/Dashboard/AddRentHouse/AddRentHouse';
+import BookingList from './components/Dashboard/BookingList/BookingList';
+import MyRent from './components/Dashboard/MyRent/MyRent';
+import Footer from './components/Shared/Footer/Footer';
 
 export const UserContext = createContext();
 
@@ -30,6 +34,21 @@ function App() {
           </Route>
           <Route path = '/login'>
             <LoginDetail></LoginDetail>
+          </Route>
+          <Route path = '/homeDetails'>
+            <HomeDetailsRent></HomeDetailsRent>
+          </Route>
+          <Route path = '/addRentHouse'>
+            <AddRentHouse></AddRentHouse>
+            <Footer></Footer>
+          </Route>
+          <Route path = '/bookingList'>
+            <BookingList></BookingList>
+            <Footer></Footer>
+          </Route>
+          <Route path = '/myRent'>
+            <MyRent></MyRent>
+            <Footer></Footer>
           </Route>
         </Switch>
       </Router>

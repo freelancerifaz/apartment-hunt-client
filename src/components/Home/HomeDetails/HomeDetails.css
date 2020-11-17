@@ -1,0 +1,24 @@
+
+.apartmentImage{
+  background: url('../../../images/Rectangle-13.png');
+  height: 400px;
+  background-size: cover;
+}
+.apartmentImageBlackLayer{
+  background-color: black;
+  height: 400px;
+  opacity: 0.6;
+}
+.apartmentImageBlackLayer h2{
+  color: white;
+}
+.img{
+  width: 100%;
+}
+.carouselImg{
+  height: 365px;
+}
+.formStyle{
+  background-color: #F4F4F4;
+  height: 100%;
+}
