@@ -1,0 +1,15 @@
+.card {
+    border: 0;
+    padding: 20px 20px 0px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 40px gray;
+}
+
+.getstarted-btn-2{
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    background-color: #21B573;
+    color: white;
+    border: none;
+}
